@@ -277,7 +277,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
             activeTrackColor: const Color(0xFF444444),
             inactiveThumbColor: const Color(0xFF444444),
             inactiveTrackColor: const Color(0xFF222222),
-            trackOutlineColor: WidgetStateProperty.all(Colors.transparent),
+            trackOutlineColor: MaterialStateProperty.all(Colors.transparent),
           ),
         ],
       ),
