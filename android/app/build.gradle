@@ -7,8 +7,6 @@ plugins {
 android {
     namespace "com.clearfeed.app"
     compileSdk 34
-    ndkVersion flutter.ndkVersion
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -22,8 +20,8 @@ android {
         applicationId "com.clearfeed.app"
         minSdk 26
         targetSdk 34
-        versionCode flutter.versionCode
-        versionName flutter.versionName
+        versionCode 1
+        versionName "1.0.0"
     }
 
     buildTypes {
